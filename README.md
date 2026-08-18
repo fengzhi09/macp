@@ -73,11 +73,10 @@ cd host && npm test
 cd packages/tunnel && npm test
 ```
 
-## 在线入口
+## 相关仓库
 
-- 官网（落地页 + 注册 + 下载）：http://120.48.37.218:11000/
-- 用户控制台：http://120.48.37.218:11000/console
 - 开源主机端 CLI（多项目管理）：https://github.com/fengzhi09/macp-cli
+- 官网与在线服务即将上线，部署地址将在正式发布时公布
 
 ## License
 
