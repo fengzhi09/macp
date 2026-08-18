@@ -1,0 +1,14 @@
+{
+  "name": "@acp/tunnel",
+  "version": "0.1.0",
+  "description": "macp 共享隧道库：帧格式/分片重组/滑动窗口/背压/断点续传",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": { "node": ">=20" }
+}

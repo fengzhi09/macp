@@ -1,0 +1,38 @@
+{
+  "name": "@acp/host",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "macp 主机守护进程：MQTT 隧道对端 / agent 桥接 / ams 文件提供 / 感知上报",
+  "scripts": {
+    "pair": "node src/pair.js",
+    "daemon": "node src/daemon.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "mqtt": "^5.10.0",
+    "qrcode-terminal": "^0.12.0",
+    "@acp/tunnel": "file:../packages/tunnel"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "macp-host": "bin/macp-host.js"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "scripts/",
+    "install.sh",
+    "install.ps1"
+  ],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ]
+}
